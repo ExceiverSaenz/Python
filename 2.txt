@@ -1,0 +1,63 @@
+Last login: Thu Sep 14 22:11:44 on ttys000
+exceiver@MacBook-Air-de-Exceiver ~ % cd Desktop/e233686f-6757-4c5f-a0d2-54e58921305a
+exceiver@MacBook-Air-de-Exceiver e233686f-6757-4c5f-a0d2-54e58921305a % python3 main.py 
+PASS: get_sorted_run_length()
+   List: [15, 23, 23, 23, 31, 64, 77, 87, 88, 91]
+   Start index:           10
+   Expected return value: 0
+   Actual return value:   0
+PASS: get_sorted_run_length()
+   List: [15, 23, 23, 23, 31, 64, 77, 87, 88, 91]
+   Start index:           0
+   Expected return value: 10
+   Actual return value:   10
+PASS: get_sorted_run_length()
+   List: [15, 23, 23, 23, 31, 64, 77, 87, 88, 91]
+   Start index:           3
+   Expected return value: 7
+   Actual return value:   7
+PASS: get_sorted_run_length()
+   List: [64, 88, 91, 12, 21, 34, 43, 56, 65]
+   Start index:           0
+   Expected return value: 3
+   Actual return value:   3
+PASS: get_sorted_run_length()
+   List: [64, 88, 91, 12, 21, 34, 43, 56, 65]
+   Start index:           2
+   Expected return value: 1
+   Actual return value:   1
+PASS: get_sorted_run_length()
+   List: [64, 88, 91, 12, 21, 34, 43, 56, 65]
+   Start index:           3
+   Expected return value: 6
+   Actual return value:   6
+PASS: get_sorted_run_length()
+   List: [-10, -20, -30, -40, -50]
+   Start index:           0
+   Expected return value: 1
+   Actual return value:   1
+PASS: get_sorted_run_length()
+   List: [-10, -20, -30, -40, -50]
+   Start index:           3
+   Expected return value: 1
+   Actual return value:   1
+PASS: get_sorted_run_length()
+   List: [-99, -99, -99, -99, -99, -99, -99, -99]
+   Start index:           0
+   Expected return value: 8
+   Actual return value:   8
+PASS: get_sorted_run_length()
+   List: [-99, -99, -99, -99, -99, -99, -99, -99]
+   Start index:           4
+   Expected return value: 4
+   Actual return value:   4
+PASS: get_sorted_run_length()
+   List: [-99, -99, -99, -99, -99, -99, -99, -99]
+   Start index:           5
+   Expected return value: 3
+   Actual return value:   3
+
+PASS: NaturalMergeSort()
+   List before calling natural_merge_sort(): [121393, 2, 1346269, 1, 1, 196418, 28657, 21, 514229, 377, 2584, 13, 233, 610, 102334155, 5, 55, 6765, 63245986, 832040, 2178309, 46368, 24157817, 433494437, 4181, 267914296, 10946, 5702887, 39088169, 1597, 9227465, 3524578, 8, 317811, 144, 17711, 14930352, 165580141, 701408733, 89, 1134903170, 987, 75025, 3, 34]
+   List after calling natural_merge_sort():  [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229, 832040, 1346269, 2178309, 3524578, 5702887, 9227465, 14930352, 24157817, 39088169, 63245986, 102334155, 165580141, 267914296, 433494437, 701408733, 1134903170]
+exceiver@MacBook-Air-de-Exceiver e233686f-6757-4c5f-a0d2-54e58921305a % 
